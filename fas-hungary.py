@@ -4,13 +4,13 @@ from fedora.client.fas2 import AccountSystem
 import codecs
 
 def calc_list():
-    '''Generate the ambassadors map data'''
+    '''Generate data'''
     output = []
     people_list = []
     flag = 0
     group_name = 'cla_done'
-    username = 'zool'
-    password = '*********'
+    username = 'FASusername'
+    password = 'FASpassword'
 
     fas = AccountSystem(username=username, password=password)
 
